@@ -21,6 +21,7 @@ export default defineConfig((configEnv, mode) => {
             react(),
             eslint({
                 include: ['./src}/**/*.{ts,tsx,js,jsx}'],
+                cache: true,
             }),
             timeReporter(),
         ],

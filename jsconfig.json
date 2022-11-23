@@ -5,6 +5,9 @@
         "useDefineForClassFields": true,
         "lib": ["DOM", "DOM.Iterable", "ESNext"],
         "baseUrl": ".",
-        "types": ["node"]
+        "types": ["node"],
+        "paths": {
+            "utils": ["./src/utils"]
+        }
     }
 }
